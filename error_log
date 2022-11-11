@@ -1,0 +1,242 @@
+[04-Sep-2022 08:29:20 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 08:29:20 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 08:29:20 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 08:29:20 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 08:29:20 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 08:29:22 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 08:29:22 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 08:29:22 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 08:29:22 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 08:29:22 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 08:30:24 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 08:30:24 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 08:30:24 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 08:30:24 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 08:30:24 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:17 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:17 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:36:17 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:17 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:36:17 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:24 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:24 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:36:24 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:24 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:36:24 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:29 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:29 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:36:29 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:36:29 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:36:29 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:39:08 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:39:08 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:39:08 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:39:08 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:39:08 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:01 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:01 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:40:01 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:01 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:40:01 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:19 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:19 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:40:19 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:19 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:40:19 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:32 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:32 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:40:32 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:32 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:40:32 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:39 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:39 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:40:39 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[04-Sep-2022 09:40:39 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 949
+[04-Sep-2022 09:40:39 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home/onlaclou/...', 875)
+#1 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#5 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(685): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#8 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#9 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(779): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(164): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home/onlaclou/canteen.onla.cloud/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
